@@ -12,31 +12,23 @@
         android:clickable="true"
         android:apiKey="0cnTRdnlKz8CB7QfwWuUwN6GvGnNAQyL3H66UYQ"
     />
+    <TableLayout  android:id="@+id/zoom"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+    <TableRow>
+         <EditText android:id="@+id/entry" 
+              android:layout_width="226px" 
+              android:layout_height="wrap_content"  />
+         
+         <Button android:id="@+id/btn"        
+              android:layout_width="50px"            
+              android:layout_height="wrap_content"            
+              android:text="Go" />
+    </TableRow>
+
+   
+</TableLayout>
     
-    <LinearLayout android:id="@+id/zoom" 
-        android:layout_width="wrap_content" 
-        android:layout_height="wrap_content" 
-        android:orientation="vertical" >
-       
-              <Button android:id="@+id/btnG"            
-              android:layout_width="wrap_content"            
-              android:layout_height="wrap_content"            
-              android:text="G" />
-              
-              <Button android:id="@+id/btnR"            
-              android:layout_width="wrap_content"            
-              android:layout_height="wrap_content"            
-              android:text="R" />
-              
-               <Button android:id="@+id/btnP"            
-              android:layout_width="wrap_content"            
-              android:layout_height="wrap_content"            
-              android:text="P" />
-              
-               <Button android:id="@+id/btnS"        
-              android:layout_width="wrap_content"            
-              android:layout_height="wrap_content"            
-              android:text="S" />
-          
-        </LinearLayout>
+        
 </RelativeLayout>

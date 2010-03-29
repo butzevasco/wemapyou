@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mainlayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:apiKey="0cnTRdnlKz8CB7QfwWuUwN6GvGnNAQyL3H66UYQ"
+    />
+    
+    <LinearLayout android:id="@+id/zoom" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:orientation="vertical" >
+       
+              <Button android:id="@+id/btnG"            
+              android:layout_width="wrap_content"            
+              android:layout_height="wrap_content"            
+              android:text="G" />
+              
+              <Button android:id="@+id/btnR"            
+              android:layout_width="wrap_content"            
+              android:layout_height="wrap_content"            
+              android:text="R" />
+              
+               <Button android:id="@+id/btnP"            
+              android:layout_width="wrap_content"            
+              android:layout_height="wrap_content"            
+              android:text="P" />
+              
+               <Button android:id="@+id/btnS"        
+              android:layout_width="wrap_content"            
+              android:layout_height="wrap_content"            
+              android:text="S" />
+          
+        </LinearLayout>
+</RelativeLayout>
